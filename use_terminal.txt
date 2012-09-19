@@ -1,1 +1,1 @@
-adt -package -storetype pkcs12 -keystore mykey.p12 -target ane simpleIntent extension.xml -swc SimpleIntent.swc -platform Android-ARM library.swf simpleIntent.jar
+adt -package -storetype pkcs12 -keystore mykey.p12 -target ane simpleIntent extension.xml -swc SimpleIntent.swc -platform Android-ARM library.swf simpleIntent.jar -platform default library.swf simpleIntent.jar

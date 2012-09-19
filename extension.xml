@@ -2,6 +2,7 @@
     <id>jp.sikisize.SimpleIntent</id>
     <versionNumber>1.0.0</versionNumber>
     <platforms>
+        
         <platform name="Android-ARM">
             <applicationDeployment>
                 <nativeLibrary>simpleIntent.jar</nativeLibrary>
@@ -9,5 +10,10 @@
                 <finalizer>jp.sikisize.SimpleIntent</finalizer>
             </applicationDeployment>
         </platform>
+        
+         <platform name="default">
+            <applicationDeployment/>
+        </platform>
+         
     </platforms>
 </extension>
