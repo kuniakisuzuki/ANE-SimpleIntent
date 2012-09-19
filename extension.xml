@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
+    <id>jp.sikisize.SimpleIntent</id>
+    <versionNumber>1.0.0</versionNumber>
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>simpleIntent.jar</nativeLibrary>
+                <initializer>jp.sikisize.SimpleIntent</initializer>
+                <finalizer>jp.sikisize.SimpleIntent</finalizer>
+            </applicationDeployment>
+        </platform>
+    </platforms>
+</extension>
